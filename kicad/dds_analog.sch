@@ -41,7 +41,7 @@ F 3 "" H 5550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L siggen-v1-rescue:AD9954-obbo_IC U?
+L siggen-rescue:AD9954-obbo_IC U?
 U 1 1 6246FE03
 P 4050 3650
 AR Path="/6246FE03" Ref="U?"  Part="1" 

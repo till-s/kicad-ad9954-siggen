@@ -580,11 +580,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# siggen-v1-rescue_AD9954-obbo_IC
+# siggen-rescue_AD9954-obbo_IC
 #
-DEF siggen-v1-rescue_AD9954-obbo_IC U 0 40 Y Y 1 F N
+DEF siggen-rescue_AD9954-obbo_IC U 0 40 Y Y 1 F N
 F0 "U" -750 1100 50 H V L CNN
-F1 "siggen-v1-rescue_AD9954-obbo_IC" -840 990 50 H V L CNN
+F1 "siggen-rescue_AD9954-obbo_IC" -840 990 50 H V L CNN
 F2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm" 0 -1150 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
