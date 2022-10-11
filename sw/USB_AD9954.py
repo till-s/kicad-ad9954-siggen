@@ -66,7 +66,9 @@ class SigGen(object):
     for i in range(4, 4+9):
       setGpio[i] = 0   # GPIO
     setGpio[13] = 0x00 | (1<<self.PIN_PWR_EN) # all outputs zero, except PWR_EN
+    setGpio[14] &= 0xfe
     setGpio[15] = 0x00 # all GPIO outputs
+    setGpio[16] &= 0xfe
     self.wrGpio_[4] = setGpio[13]
     self._io_(setGpio, True)
     cmd = bytearray(64)
@@ -152,13 +154,21 @@ class SigGen(object):
     self.flashGpio( self.PIN_IO_UPDATE )
 
   def setGpio(self, n, val):
-    if ( n < 0 or n > 7 ):
+    if ( n < 0 or n > 8 ):
       raise RuntimeError("Invalid GPIO pin")
+    i   = 4 + int(n / 8)
+    n   = n % 8
     if ( val != 0 ):
-      self.wrGpio_[4] |=  (1<<n)
+      self.wrGpio_[i] |=  (1<<n)
     else:
-      self.wrGpio_[4] &= ~(1<<n)
+      self.wrGpio_[i] &= ~(1<<n)
     self._io_(self.wrGpio_, True)
+
+  def getGpios(self):
+    d = bytearray(64)
+    d[0] = self.CMD_RD_GPIO_VALUE
+    rsp = self._io_(d, True)
+    return rsp[4] | ((rsp[5] & 1) << 8)
 
   def powerOn(self):
     self.setGpio(2, 1)
