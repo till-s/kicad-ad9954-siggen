@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -30,11 +30,5 @@ S 4600 2950 1400 1500
 U 623B3927
 F0 "power" 50
 F1 "power.sch" 50
-$EndSheet
-$Sheet
-S 7050 3650 1750 1000
-U 6244652F
-F0 "fe_test_hack" 50
-F1 "fe_test_v2.sch" 50
 $EndSheet
 $EndSCHEMATC

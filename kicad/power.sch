@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -752,7 +752,7 @@ F 1 "10k" V 2800 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2900 4800 50  0001 C CNN
 F 3 "~" H 2900 4800 50  0001 C CNN
 	1    2900 4800
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R20
@@ -1088,8 +1088,8 @@ U 1 1 6273F58A
 P 3100 4800
 AR Path="/6273F58A" Ref="#PWR?"  Part="1" 
 AR Path="/624595FA/6273F58A" Ref="#PWR?"  Part="1" 
-AR Path="/623B3927/6273F58A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 4650 50  0001 C CNN
+AR Path="/623B3927/6273F58A" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3100 4650 50  0001 C CNN
 F 1 "-2V2" H 3115 4973 50  0000 C CNN
 F 2 "" H 3100 4800 50  0001 C CNN
 F 3 "" H 3100 4800 50  0001 C CNN

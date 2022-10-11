@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -41,7 +41,7 @@ F 3 "" H 5550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L obbo_IC:AD9954 U?
+L siggen-v1-rescue:AD9954-obbo_IC U?
 U 1 1 6246FE03
 P 4050 3650
 AR Path="/6246FE03" Ref="U?"  Part="1" 
