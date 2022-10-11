@@ -1,5 +1,10 @@
-GP8 is input only!
-GP2 is USB suspend (seems active high when suspended) -- this is
-    the inverse of PWR_EN!
-POT is too close to board edge (for housing) (FIXED in V2)
-add DC-output offset adjustment
+GP8 is input only! => this is likely due to a short on the prototype.
+                      Unable to verify correct operation, could not repair.
+GP2                => could not get it suspended ever (linux). If I set
+                      power/control -> auto then power/runtime_status goes
+                      to 'suspended' but the device continues working; the
+                      runtime_status never ever goes back to 'active'.
+
+POT is too close to board edge (for housing) (FIXED after V1)
+
+add DC-output offset adjustment 
