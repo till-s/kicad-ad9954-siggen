@@ -1,0 +1,4 @@
+GP8 is input only!
+GP2 is USB suspend (seems active high when suspended) -- this is
+    the inverse of PWR_EN!
+POT is too close to board edge (for housing)
