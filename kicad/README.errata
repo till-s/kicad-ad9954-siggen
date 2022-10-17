@@ -8,3 +8,5 @@ GP2                => could not get it suspended ever (linux). If I set
 POT is too close to board edge (for housing) (FIXED after V1)
 
 add DC-output offset adjustment 
+
+add output buffer stage
