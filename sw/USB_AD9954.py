@@ -232,7 +232,7 @@ class SigGen(object):
       v = (v<<8) | x
     return v
  
-sg=SigGen()
+#sg=SigGen()
 # usage example:
 # sg.setFrequencyHz(1.3E6)
 # scale between 0..1

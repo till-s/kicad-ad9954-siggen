@@ -10,3 +10,7 @@ POT is too close to board edge (for housing) (FIXED after V1)
 add DC-output offset adjustment 
 
 add output buffer stage
+
+Change USBC connector for SMD version
+
+Add power-LED
