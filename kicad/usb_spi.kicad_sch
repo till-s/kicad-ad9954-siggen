@@ -1037,11 +1037,11 @@
     (uuid 194376e7-9f0b-4116-bc66-549076126fb5)
   )
 
-  (label "USB_N" (at 86.36 92.71 0)
+  (label "USB_N" (at 86.36 92.71 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f09b36a-08e9-4721-b74b-1538485040bf)
   )
-  (label "USB_P" (at 86.36 90.17 0)
+  (label "USB_P" (at 86.36 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc6bc021-e663-4662-8a62-686f522100cd)
   )
