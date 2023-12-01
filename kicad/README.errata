@@ -1,5 +1,8 @@
 GP8 is input only! => this is likely due to a short on the prototype.
                       Unable to verify correct operation, could not repair.
+ update 2023/11/10: GP8 seems input only by design (documented indirectly; pin8 direction is set to 1)
+                    v2 prototype also has this problem :-( => should be fixed!
+                    WORKAROUND: short with adjacent pin 15 (PWRDWN)
 GP2                => could not get it suspended ever (linux). If I set
                       power/control -> auto then power/runtime_status goes
                       to 'suspended' but the device continues working; the
