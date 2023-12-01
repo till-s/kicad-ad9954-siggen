@@ -1977,7 +1977,8 @@
     (uuid ff98f2ff-9b8f-4440-8ee9-2c4b71a4253d)
   )
 
-  (text "V2 uses R6: 100, R7: 100, R8: 143; C5: 2.4p||5.1p" (at 113.03 132.08 0)
+  (text "V2 prototype uses R6: 100, R7: 100, R8: 143; C5: 2.4p||5.1p"
+    (at 113.03 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 98de6bfc-4b51-4a8d-b17e-b50ed2e7cb10)
   )
